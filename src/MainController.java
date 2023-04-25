@@ -5,6 +5,7 @@ public class MainController {
         System.out.println(sumUpPowerOfTwo(8));
     }
 
+    //Aufgabe 2, Einfache Methoden
     public static void printSomeNumbers() {
         for (int i = 6; i < 24; i++) {
             System.out.println(i);
@@ -41,5 +42,9 @@ public class MainController {
             sum = sum + powerOfTwo(i);
         }
         return sum;
+    }
+    //Aufgabe 3, Komplexere Anwendungen
+    public static void rectangleStars(int width, int height) {
+
     }
 }
