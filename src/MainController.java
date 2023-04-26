@@ -1,9 +1,10 @@
 public class MainController {
 
     public static void main(String[] args) {
-        System.out.println(powerOfTwo(5));
-        System.out.println(sumUpPowerOfTwo(8));
-        rectangleStars(5, 4);
+       // System.out.println(powerOfTwo(5));
+       // System.out.println(sumUpPowerOfTwo(8));
+       // rectangleStars(5, 4);
+        triangleStars(9);
     }
 
     //Aufgabe 2, Einfache Methoden
@@ -55,9 +56,16 @@ public class MainController {
 
     }
     public static void rectangleStarsSave(int width, int height){
+        if(width> 0 && height > 0){
+            rectangleStars(width, height);
+        }
 
     }
     public static void triangleStars(int width){
+        for(int i = 1; i <= width; i++){
+            for (int j = 0; j < i; j++) System.out.print("*");
+            System.out.println();
+        }
 
     }
 }
